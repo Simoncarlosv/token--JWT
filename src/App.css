@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav{
+  background-color: #212429 !important;
+}
+nav li a:hover{
+  color: #8c2e2c !important;
+}
+.logo-header{
+  width: 60%;
+}
+.navbar-nav li a{
+  color: white;
+}
+button.btn {
+  color: white;
+}
+nav button.btn:hover {
+  color: #8c2e2c !important;
+}
+
+/* HEADER */
+.header {
+  padding: 110px 0px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(5,7,12, 0.45), rgba(5,7,12, 0.45)), url(assets/img/Header.jpg);
+}
+.titulo-grande{
+  font-size: 60px;
+}
+.bajada-titulo{
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.linea{
+  width: 50%;
+  margin: auto;
+}
+
+/* CARDS */
+
+.caja-cards{
+  padding: 50px 0px;
+}
+.T-pizza{
+  font-weight: 700;
+}
+.caja-media{
+  text-align: center;
+  border-top: 1px solid rgba(128, 128, 128, 0.342);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+}
+.T-ingredientes{
+  font-size: 20px;
+  font-weight: 300;
+  color:  rgb(128, 128, 128) !important;
+}
+.caja-precio{
+  text-align: center;
+}
+.T-precio{
+  font-weight: 700;
+  font-size: 28px;
+  color: #393742 !important;
+}
+.ver-mas{
+  width: 100%;
+  color: #393742 !important;
+  background-color: white !important;
+  border: 1px solid #393742 !important;
+}
+.agregar{
+  width: 100%;
+}
+
+/* FOOTER */
+
+.texto-footer{
+  color: white !important;
+}
